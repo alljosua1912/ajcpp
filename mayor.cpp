@@ -17,9 +17,16 @@ int main (int argc, char* argv[])
 	b=atoi(argv[2]);
 	c=atoi(argv[3]);
 	
-	if (a>b)
+	if (a>b&&a>c)
 	{
 		cout<<"el numero mayor es a:"<<a;
 	}
-
+	if (b>a&&b>c)
+	{
+		cout<<"el numero mayor es b:"<<b;
+	}
+	if (c>b&&c>a)
+	{
+		cout<<"el numero mayor es c:"<<c;
+	}
 }
